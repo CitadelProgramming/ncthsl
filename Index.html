@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hangar Website | @ProjectCitadel</title>
+        <!--Linking Font Awesome for icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- Linking Swiper css-->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <link rel="stylesheet" href="oOld-style.css">
+    </head>
+
+    <body>
+
+        <!--Header / Navbar-->
+        <header>
+            <nav class="navbar section-content">
+                <a href="#" class="nav-logo">
+                    <img src="Aircraft Images/Logo-removebg-preview.png" alt="Logo" class="logo-image">
+                    <h2 class="logo-text">Nigeria Customs Technical & Hangar Services Limited</h2>
+                </a>
+
+                <ul class="nav-menu">
+                    <button id="menu-close-button" class="fas fa-times"></button>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- About now has a mini-menu trigger -->
+                        <a href="#about" class="nav-link" data-mini="aboutMiniPopup">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Menu now has a mini-menu trigger -->
+                        <a href="#menu" class="nav-link" data-mini="menuMiniPopup">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>-->
+                </ul>
+
+                <button id="menu-open-button" class="fas fa-bars"></button>
+            </nav>
+        </header>
+
+        <main>
+            <!--Hero Section-->
+            <section class="hero-section">
+                <div class="section-content">
+                    <div class="hero-details">
+                        <h2 class="title">Ownership</h2>
+                        <h3 class="subtitle">Nigeria Customs Service (NCS) and the Ministry of Finance Incorporated (MOFI)</h3>
+                        <p class="description">The NCT&HSL was established in August 2016 as a private company limited by shares pursuant to the 
+                            Companies and Allied Matters Act 1990, with the NCS and the MOFI as subscribers to the Memorandum of Association.
+                        </p>
+                        <div class="buttons">
+                            <a href="#gallery" class="button order-now">Gallery</a>
+                            <a href="#contact" class="button contact-us">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="hero-image-wrapper">
+                        <img src="Aircraft Images/hero.png" alt="Hero" class="hero-image">
+                    </div>
+                </div>
+            </section>
+
+            <!--About Section-->
+            <section class="about-section" id="about">
+                <div class="section-content">
+                    <div class="about-image-wrapper">
+                        <img src="Aircraft Images/about.jpg" alt="About" class="about-image">
+                    </div>
+
+                    <div class="about-details">
+                        <h2 class="section-title">About Us</h2>
+                        <p class="text">NCT&HSL is a premier provider of aviation services, renowned 
+                            for its comprehensive range of offerings, 
+                            technical expertise, and commitment to excellence in service delivery.
+                             Our aviation services are designed to meet the diverse needs of clientele, ensuring safety, 
+                             efficiency, and satisfaction at every turn.</p>
+
+                        <div class="social-link-list">
+                            <a href="https://www.facebook.com/profile.php?id=100021495301994&ref=_ig_profile_ac" class="social-link" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/moseszechariahdangiwa/?__pwa=1" class="social-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://x.com/@MosesDangiwa" class="social-link" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mission, Vision & Core Values -->
+            <section class="mission-vision section-content" id="mission">
+                <h2 class="section-title">Our Mission, Vision & Core Values</h2>
+                <div class="mv-grid">
+                    <div class="mv-card">
+                        <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+                        <h3>Our Mission</h3>
+                        <p>To deliver world-class aircraft maintenance, repair, and overhaul (MRO) services with integrity, precision, and innovation that exceed client expectations.</p>
+                    </div>
+                    <div class="mv-card">
+                        <div class="mv-icon"><i class="fas fa-rocket"></i></div>
+                        <h3>Our Vision</h3>
+                        <p>To become Africa’s leading hub for aviation technical services, safety assurance, and hangar operations, recognized globally for excellence.</p>
+                    </div>
+                    <div class="mv-card">
+                        <div class="mv-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Our Core Values</h3>
+                        <p><strong>Safety</strong> • <strong>Excellence</strong> • <strong>Integrity</strong> • <strong>Innovation</strong> • <strong>Teamwork</strong></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Menu Section-->
+             <section class="menu-section" id="menu">
+                <h2 class="section-title">Our Services</h2>
+                <div class="section-content">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <img src="Aircraft Images/service 1.jpeg" alt="Hangar" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Fixed Based Operations (FBO)</h3>
+                                <p class="text">Our FBO services are tailored to provide seamless support for private, corporate, and general aviation aircraft.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Aircraft Images/service 2.jpg" alt="Hangar" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Fueling, Parking, & Lounging</h3>
+                                <p class="text">We provide reliable and efficient fueling services, utilizing high quality aviation fuel to meet your aircraft's needs.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Aircraft Images/service 3.jpg" alt="Hangar" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Sales and Leasing of Aircraft</h3>
+                                <p class="text">NCT&HSL offers comprehensive sales and leasing solutions for a variety of aircraft.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Aircraft Images/service 4.jpg" alt="Hangar" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Aircraft Charter</h3>
+                                <p class="text">For those seeking flexibility and convenience, our aircraft charter services offer personalized travel solutions.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Aircraft Images/service 5.jpg" alt="Hangar" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Helicopter & fixed wing aircraft services</h3>
+                                <p class="text">Our aviation services for oil and gas operators are engineered to meet the demanding requirements of the industry.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Aircraft Images/service 6.jpg" alt="Hangar" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Aviation Consultancy</h3>
+                                <p class="text">Our aviation consultancy services leverage our extensive industry knowledge and expertise to provide strategic advice and solutions.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+             </section>
+
+            <!-- Our Capabilities (services-section) -->
+            <!-- THIS SECTION IS KEPT IN DOM BUT HIDDEN (will show inside popup) -->
+            <section class="services-section hidden-section" id="services">
+            <h2 class="section-title">Our Capabilities</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                <i class="fas fa-wrench service-icon"></i>
+                <h3>Aircraft Maintenance</h3>
+                <p>Comprehensive maintenance, inspection, and repair services to ensure airworthiness and compliance with aviation standards.</p>
+                </div>
+                <div class="service-card">
+                <i class="fas fa-cogs service-icon"></i>
+                <h3>Engineering Support</h3>
+                <p>Providing technical and engineering assistance to improve operational efficiency and aircraft system reliability.</p>
+                </div>
+                <div class="service-card">
+                <i class="fas fa-plane-departure service-icon"></i>
+                <h3>Hangar Operations</h3>
+                <p>Modern hangar facilities for storage, inspections, and line maintenance for both light and heavy aircraft types.</p>
+                </div>
+            </div>
+            </section>
+
+            <!-- Safety & Compliance (hidden on initial page; open via popup) -->
+            <section class="safety-section hidden-section" id="safety">
+            <div class="section-content">
+                <div class="safety-text">
+                <h2 class="section-title">Safety & Compliance</h2>
+                <p>We operate under strict adherence to the Nigerian Civil Aviation Authority (NCAA) and global MRO standards. Our certified engineers and technicians follow approved maintenance procedures to ensure safety, reliability, and compliance in every operation.</p>
+                </div>
+                <div class="safety-image">
+                <img src="Aircraft Images/safety.jpg" alt="Safety Standards">
+                </div>
+            </div>
+            </section>
+
+            <!-- Leadership / Management Team (hidden on initial page; open via popup) -->
+            <section class="team-section hidden-section" id="team">
+            <h2 class="section-title">Our Leadership Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                <img src="Aircraft Images/MD.png" alt="Managing Director">
+                <h3>Capt. KW Mbaya</h3>
+                <p>Managing Director</p>
+                </div>
+                <div class="team-card">
+                <img src="Aircraft Images/Secretary.png" alt="Chief Engineer">
+                <h3>Ms. Hauwa Ibrahim Kuchi</h3>
+                <p>Company Secretary</p>
+                </div>
+                <div class="team-card">
+                <img src="Aircraft Images/Chairman.jpeg" alt="Operations Head">
+                <h3>DCG. A. O. Alajogun</h3>
+                <p>Chairman</p>
+                </div>
+            </div>
+            </section>
+
+            <!-- Contact / Get in Touch (kept in DOM but hidden; popup clones it) -->
+            <section class="contact-section hidden-section" id="contact">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-details">
+                <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+                <p><i class="fas fa-phone-alt"></i> +234 800 123 4567</p>
+                <p><i class="fas fa-envelope"></i> info@nigeriacustomshangar.com</p>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7881.
+                    009910424946!2d7.276240299999992!3d9.017615700000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                    1!3m3!1m2!1s0x104e73fd531ddf41%3A0xf0942f93db50b157!2sNigeria%20Customs%20
+                    Technical%20%26%20Hangar%20Services%20Limited!5e0!3m2!1sen!2sng!4v176243144807
+                    2!5m2!1sen!2sng" width="600" height="450" style="border:0;" 
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            </section>
+
+            <!-- Partners (hidden on initial page; open via popup) -->
+            <section class="partners-section hidden-section" id="partners">
+            <h2 class="section-title">Our Partners</h2>
+            <div class="partners-logos">
+                <img src="Aircraft Images/partner 1.jpg" alt="Partner 1">
+                <img src="Aircraft Images/partner 2.jpg" alt="Partner 2">
+                <img src="Aircraft Images/partner 3.jpg" alt="Partner 3">
+                <img src="Aircraft Images/partner 4.jpg" alt="Partner 4">
+            </div>
+            </section>
+
+            <!-- Stats, Video, News, Careers etc. (keep career hidden for popup) -->
+            <section class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-box">
+                <h3>500+</h3>
+                <p>Aircraft Serviced</p>
+                </div>
+                <div class="stat-box">
+                <h3>50+</h3>
+                <p>Certified Engineers</p>
+                </div>
+                <div class="stat-box">
+                <h3>10+</h3>
+                <p>Years of Excellence</p>
+                </div>
+            </div>
+            </section>
+
+            <section class="video-section" id="video">
+            <div class="section-content">
+                <h2 class="section-title">Experience Our Facility</h2>
+                <div class="video-wrapper">
+                <video autoplay muted loop>
+                    <source src="Aircraft Images/Img 1209 - Trim.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+            </div>
+            </section>
+
+            <section class="news-section" id="news">
+            <h2 class="section-title">Latest News</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                <img src="Aircraft Images/news 1.jpg" alt="News">
+                <h3>New Maintenance Facility Commissioned</h3>
+                <p>We recently launched a new state-of-the-art maintenance bay equipped with advanced diagnostic tools.</p>
+                </div>
+                <div class="news-card">
+                <img src="Aircraft Images/news 2.jpg" alt="News">
+                <h3>Training Partnership Announced</h3>
+                <p>Our partnership with NAF Technical Academy enhances skill development for aviation engineers.</p>
+                </div>
+            </div>
+            </section>
+
+            <section class="career-section hidden-section" id="careers">
+            <h2 class="section-title">Join Our Team</h2>
+            <p>We’re constantly seeking passionate aviation professionals who share our vision for excellence and safety.</p>
+            <a href="mailto:hr@nigeriacustomshangar.com" class="career-button">Apply Now</a>
+            </section>
+
+            <!-- Testimonials, Gallery, Contact form, Footer (unchanged) -->
+            <section class="testimonials-section" id="testimonials">
+                <h2 class="section-title">Testimonials</h2>
+                <!-- ... (your existing testimonial slider) -->
+                <div class="section-content">
+                    <div class="slider-container swiper">
+                        <div class="slider-wrapper">
+                            <ul class="testimonials-list swiper-wrapper">
+                                <li class="testimonial swiper-slide">
+                                    <img src="Aircraft Images/user 1.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Sarah Johnson</h3>
+                                    <i class="feedback">"They know exactly what they are doing, why they are doing it, and how it benefits their clients!"</i>
+                                </li>
+                                <!-- other testimonial slides -->
+<li class="testimonial swiper-slide">
+
+                                    <img src="Aircraft Images/user 2.jpg" alt="User" class="user-image">
+                                    <h3 class="name">James Wilson</h3>
+                                    <i class="feedback">"Certified technicians and type rated professionals!"</i>
+
+                                </li>
+                                <li class="testimonial swiper-slide">
+
+                                    <img src="Aircraft Images/user-3.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Michael Brown</h3>
+                                    <i class="feedback">"They provide secure, accessible, and professionally managed space for operators!"</i>
+
+                                </li>
+                                <li class="testimonial swiper-slide">
+
+                                    <img src="Aircraft Images/user-4.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Emily Harris</h3>
+                                    <i class="feedback">"Excellent quality! Highly recommended."</i>
+
+                                </li>
+                                <li class="testimonial swiper-slide">
+
+                                    <img src="Aircraft Images/user-5.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Anthony Thompson</h3>
+                                    <i class="feedback">"Top notch state of the art facilities and engineers."</i>
+
+                                </li>
+
+
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-slide-button swiper-button-prev"></div>
+                            <div class="swiper-slide-button swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery-section" id="gallery">
+                <h2 class="section-title">Gallery</h2>
+                <div class="section-content">
+                    <ul class="gallery-list">
+                        <li class="gallery-item"><img src="Aircraft Images/gallery 1.jpg" alt="Gallery" class="gallery-image"></li>
+                        <li class="gallery-item"><img src="Aircraft Images/gallery 2.jpg" alt="Gallery" class="gallery-image"></li>
+                        <li class="gallery-item"><img src="Aircraft Images/gallery 3.jpg" alt="Gallery" class="gallery-image"></li>
+                        <li class="gallery-item"><img src="Aircraft Images/gallery 4.jpg" alt="Gallery" class="gallery-image"></li>
+                        <li class="gallery-item"><img src="Aircraft Images/gallery 5.jpg" alt="Gallery" class="gallery-image"></li>
+                        <li class="gallery-item"><img src="Aircraft Images/gallery 6.jpg" alt="Gallery" class="gallery-image"></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contact-section" id="contact-frontend-copy">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info"><i class="fa-solid fa-location-crosshairs"></i><p>Customs Airwing Hangar, General Aviation Terminal, Nnamdi Azikiwe International Airport, Abuja.</p></li>
+                        <li class="contact-info"><i class="fa-solid fa-phone"></i><p>+234 (0) 903 578 3766</p></li>
+                        <li class="contact-info"><i class="fa-regular fa-clock"></i><p>Monday - Friday: 8:00 AM - 4:00PM</p></li>
+                        <li class="contact-info"><i class="fa-regular fa-clock"></i><p>Sunday - Saturday: Closed</p></li>
+                        <li class="contact-info"><i class="fa-solid fa-globe"></i><p>www.youtube.com/@ProjectCitadel</p></li>
+                    </ul>
+
+                    <form action="" class="contact-form">
+                        <input type="text" placeholder="Your name" class="form-input" required>
+                        <input type="text" placeholder="Your mobile number" class="form-input" required>
+                        <input type="email" placeholder="Your email" class="form-input" required>
+                        <textarea placeholder="Your message" class="form-input" required></textarea>
+                        <button class="submit-button">Submit</button>
+                    </form>
+                </div>
+            </section>
+
+             <!-- FOOTER SECTION (unchanged) -->
+<footer class="footer-section">
+  <div class="footer-container">
+    <div class="footer-about">
+      <img src="Aircraft Images/Logo-removebg-preview.png" alt="Logo" class="footer-logo">
+      <h3>Nigeria Customs Technical & Hangar Services Ltd</h3>
+      <p>Delivering world-class aircraft maintenance and technical services that keep Nigeria’s skies safe and efficient.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact Info</h4>
+      <p><i class="fas fa-map-marker-alt"></i> FCT Abuja, Nigeria</p>
+      <p><i class="fas fa-phone-alt"></i> +234 800 123 4567</p>
+      <p><i class="fas fa-envelope"></i> info@nigeriacustomshangar.com</p>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="footer-newsletter">
+      <h4>Newsletter</h4>
+      <p>Stay informed about our services and aviation updates.</p>
+<form class="newsletter-form" action="subscribe.php" method="POST">
+  <input type="email" name="email" placeholder="Enter your email" required>
+  <button type="submit">Subscribe</button>
+</form>
+<div id="subscription-message"></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Nigeria Customs Technical & Hangar Services Ltd. All Rights Reserved. | Designed by <strong>Moses Zechariah</strong></p>
+  </div>
+</footer>
+
+        </main>
+
+        <!-- ===== Overlay (for blur & close on click) ===== -->
+        <div id="overlay" class="overlay" aria-hidden="true"></div>
+
+        <!-- ===== Mini-menu popups ===== -->
+        <div id="aboutMiniPopup" class="mini-popup" aria-hidden="true">
+          <button class="mini-close-btn" aria-label="Close mini menu">&times;</button>
+          <div class="mini-popup-content">
+            <h3>About — Quick Links</h3>
+            <ul class="mini-link-list">
+              <li><button class="mini-link" data-open="capabilitiesPopup" data-section="#services">Our Capabilities</button></li>
+              <li><button class="mini-link" data-open="safetyPopup" data-section="#safety">Safety & Compliance</button></li>
+              <li><button class="mini-link" data-open="partnersPopup" data-section="#partners">Our Partners</button></li>
+              <li><button class="mini-link" data-open="contactPopup" data-section="#contact">Contact Us</button></li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="menuMiniPopup" class="mini-popup" aria-hidden="true">
+          <button class="mini-close-btn" aria-label="Close mini menu">&times;</button>
+          <div class="mini-popup-content">
+            <h3>Menu — Quick Links</h3>
+            <ul class="mini-link-list">
+              <li><button class="mini-link" data-open="leadershipPopup" data-section="#team">Leadership Team</button></li>
+              <li><button class="mini-link" data-open="joinTeamPopup" data-section="#careers">Join Our Team</button></li>
+              <li><button class="mini-link" data-open="getInTouchPopup" data-section="#contact">Get In Touch</button></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ===== Content popups (clone DOM nodes inside when opened) ===== -->
+        <div id="capabilitiesPopup" class="content-popup" aria-hidden="true">
+          <button class="close-btn" aria-label="Close content popup">&times;</button>
+          <div class="popup-content" id="capabilitiesContent"></div>
+        </div>
+
+        <div id="safetyPopup" class="content-popup" aria-hidden="true">
+          <button class="close-btn" aria-label="Close content popup">&times;</button>
+          <div class="popup-content" id="safetyContent"></div>
+        </div>
+
+        <div id="partnersPopup" class="content-popup" aria-hidden="true">
+          <button class="close-btn" aria-label="Close content popup">&times;</button>
+          <div class="popup-content" id="partnersContent"></div>
+        </div>
+
+        <div id="contactPopup" class="content-popup" aria-hidden="true">
+          <button class="close-btn" aria-label="Close content popup">&times;</button>
+          <div class="popup-content" id="contactContent"></div>
+        </div>
+
+        <div id="leadershipPopup" class="content-popup" aria-hidden="true">
+          <button class="close-btn" aria-label="Close content popup">&times;</button>
+          <div class="popup-content" id="leadershipContent"></div>
+        </div>
+
+        <div id="joinTeamPopup" class="content-popup" aria-hidden="true">
+          <button class="close-btn" aria-label="Close content popup">&times;</button>
+          <div class="popup-content" id="joinTeamContent"></div>
+        </div>
+
+        <div id="getInTouchPopup" class="content-popup" aria-hidden="true">
+          <button class="close-btn" aria-label="Close content popup">&times;</button>
+          <div class="popup-content" id="getInTouchContent"></div>
+        </div>
+
+        <!-- Linking Swiper script-->
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+         <!-- Linking Customs script (your original file with popup logic appended) -->
+        <script src="Script.js"></script>
+
+    </body>
+</html>
